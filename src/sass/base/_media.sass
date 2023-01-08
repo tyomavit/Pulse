@@ -12,9 +12,19 @@
             .item_subheader
                 margin-top: 20px
                 margin-bottom: 10px
+    .consultation
+        &_header
+            font-size: 32px
+        &_descr
+            font-size: 18px
 @media (max-width: 767px)
     .header_official
         display: none
+    .consultation
+        &_header
+            font-size: 24px
+        &_descr
+            font-size: 16px
 @media (max-width: 600px)
     .promo
         &_header
@@ -34,6 +44,15 @@
     .button_main
         margin: 0 auto
         margin-top: 65px
+    .consultation
+        &_header
+            text-align: center
+            font-size: 21px
+        &_descr
+            text-align: center
+            font-size: 14px
+        .feed-form
+            align-items: center
 @media (max-width: 509px)
     .promo
         min-height: 570px
@@ -51,6 +70,17 @@
                 margin-top: 25px
             &_contacts
                 display: none
+    .consultation
+        min-height: 590px
+        padding: 65px 0 65px 0
+        &_header
+            text-align: center
+            font-size: 17px
+            line-height: 40px
+        &_descr
+            text-align: center
+            font-size: 13px
+            line-height: 23px
 @media (max-width: 430px)
     .container
         padding: 0
@@ -73,5 +103,21 @@
             &_logo
                 width: 230px
     .advantages
-        &_header
+        .title
             font-size: 24px
+    .consultation
+        &_header
+            font-size: 13px
+        &_descr
+            font-size: 12px
+        .feed-form
+            margin: 0 auto
+            margin-top: 36px
+            input
+                width: 250px
+                height: 45px
+                font-size: 12px
+            .button_submit
+                width: 250px
+                height: 50px
+                font-size: 14px
